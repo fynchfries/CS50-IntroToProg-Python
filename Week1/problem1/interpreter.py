@@ -2,6 +2,7 @@ def main():
   x, y, z = input("Expression: ").strip().split()
   calculate(x, y, z)
 
+# calculator
 def calculate(x, y, z):
   match y:
     case "+":
